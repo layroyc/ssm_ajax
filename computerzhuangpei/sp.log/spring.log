@@ -1,0 +1,61 @@
+2021-07-16 17:00:59.610  INFO 21552 --- [restartedMain] com.xiexin.ComputerzhuangpeiApplication  : Starting ComputerzhuangpeiApplication on xieaxin with PID 21552 (D:\项目资源\课件\项目集合\电脑装配---认证考试的\电脑装配\computerzhuangpei\target\classes started by xiexin in D:\项目资源\课件\项目集合\电脑装配---认证考试的\电脑装配\computerzhuangpei)
+2021-07-16 17:00:59.618  INFO 21552 --- [restartedMain] com.xiexin.ComputerzhuangpeiApplication  : No active profile set, falling back to default profiles: default
+2021-07-16 17:00:59.697  INFO 21552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-16 17:01:01.467  INFO 21552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2021-07-16 17:01:01.478  INFO 21552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 17:01:01.478  INFO 21552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-07-16 17:01:01.570  INFO 21552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 17:01:01.570  INFO 21552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1872 ms
+2021-07-16 17:01:01.584 DEBUG 21552 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-16 17:01:01.585 DEBUG 21552 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-07-16 17:01:01.632  INFO 21552 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-07-16 17:01:01.744  INFO 21552 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-16 17:01:02.179  INFO 21552 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-16 17:01:02.191 DEBUG 21552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-16 17:01:02.242 DEBUG 21552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-07-16 17:01:02.272 DEBUG 21552 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-07-16 17:01:02.283 DEBUG 21552 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-16 17:01:02.386  INFO 21552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-16 17:01:02.425  INFO 21552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2021-07-16 17:01:02.428  INFO 21552 --- [restartedMain] com.xiexin.ComputerzhuangpeiApplication  : Started ComputerzhuangpeiApplication in 3.251 seconds (JVM running for 4.511)
+2021-07-16 17:01:24.641  INFO 21552 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-16 17:01:24.642  INFO 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-16 17:01:24.642 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-07-16 17:01:24.646 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-07-16 17:01:24.646  INFO 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-07-16 17:01:24.654 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/page/toPage", parameters={}
+2021-07-16 17:01:24.658 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-07-16 17:01:24.662 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-07-16 17:01:24.662 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-07-16 17:01:24.667 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-07-16 17:01:24.669 DEBUG 21552 --- [http-nio-9001-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-07-16 17:01:24.685 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-07-16 17:01:24.690 DEBUG 21552 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-07-16 17:01:24.947 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-07-16 17:01:24.948 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-07-16 17:01:24.950 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-07-16 17:01:24.951 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-07-16 17:01:24.951 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-07-16 17:01:24.952 DEBUG 21552 --- [http-nio-9001-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-07-16 17:01:24.970 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-07-16 17:01:24.971 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 16 17:01:24 CST 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-07-16 17:01:25.014 DEBUG 21552 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-07-16 17:01:31.202 DEBUG 21552 --- [http-nio-9001-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/page/showPage", parameters={}
+2021-07-16 17:01:31.203 DEBUG 21552 --- [http-nio-9001-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#showPage()
+2021-07-16 17:01:31.208 DEBUG 21552 --- [http-nio-9001-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-07-16 17:01:31.386 DEBUG 21552 --- [http-nio-9001-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-07-16 17:01:34.136 DEBUG 21552 --- [http-nio-9001-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/page/peiJianAdd", parameters={}
+2021-07-16 17:01:34.136 DEBUG 21552 --- [http-nio-9001-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#peiJianAdd()
+2021-07-16 17:01:34.137 DEBUG 21552 --- [http-nio-9001-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-07-16 17:01:34.148 DEBUG 21552 --- [http-nio-9001-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-07-16 17:01:34.160 DEBUG 21552 --- [http-nio-9001-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/peiJianAdd.js", parameters={}
+2021-07-16 17:01:34.161 DEBUG 21552 --- [http-nio-9001-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-07-16 17:01:34.174 DEBUG 21552 --- [http-nio-9001-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-07-16 17:01:34.305 DEBUG 21552 --- [http-nio-9001-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/type/selectTypeAll", parameters={}
+2021-07-16 17:01:34.305 DEBUG 21552 --- [http-nio-9001-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.TypeController#selectTypeAll()
+2021-07-16 17:01:34.492 DEBUG 21552 --- [http-nio-9001-exec-7] com.xiexin.dao.TypeDAO.selectByExample   : ==>  Preparing: select type_id, type_name from type
+2021-07-16 17:01:34.502 DEBUG 21552 --- [http-nio-9001-exec-7] com.xiexin.dao.TypeDAO.selectByExample   : ==> Parameters: 
+2021-07-16 17:01:34.513 DEBUG 21552 --- [http-nio-9001-exec-7] com.xiexin.dao.TypeDAO.selectByExample   : <==      Total: 5
+2021-07-16 17:01:34.528 DEBUG 21552 --- [http-nio-9001-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-07-16 17:01:34.528 DEBUG 21552 --- [http-nio-9001-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [DataResult(count=0, currentPage=null, limit=null, totalPageNum=null, code=200, msg=操作成功, data=[com.x (truncated)...]
+2021-07-16 17:01:34.530 DEBUG 21552 --- [http-nio-9001-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

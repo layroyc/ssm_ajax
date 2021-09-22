@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>配件添加的界面</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="/peiJianAdd.js"></script>
+
+</head>
+<body>
+        <div>
+            配件名称:<input type="text" id="peiJianName" /> <br/>
+            配件类型:<select id="typeIdf" onchange="typeIdfChange();">
+                        <option value="1">cpu</option>
+                        <option value="2">内存</option>
+                        <option value="4">硬盘</option>
+                   </select> <br/>
+            <span id="peiJianRongLiangNone" style="display: none">配件容量:<input  type="text" id="peiJianRongLiang" />G<br/></span>
+            配件价格:<input type="text" id="peiJianPrice" /><br/>
+                <button onclick="addPeiJian()">添加</button>
+        </div>
+
+
+</body>
+</html>

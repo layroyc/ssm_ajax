@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加电脑</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="/computerAdd.js"></script>
+</head>
+<body>
+
+<div id="computer_add">
+    <h3>增加电脑</h3>
+    <div id="pcInfo">
+        <input  type="text" id="pcId" readonly="readonly" style="visibility: hidden" disabled="disabled"> <br/>
+        电脑型号:<input  type="text" id="pcName" > <br/>
+        <div>
+            CPU: <select id="pcCpu">
+            <!--<option value="1">5444</option>-->
+        </select><br/>
+            内存: <select id="pcMemory">
+            <!--<option value="1">5444</option>-->
+        </select><br/>
+            硬盘:<select id="pcHdd">
+            <!--<option value="1">5444</option>-->
+        </select><br/>
+            显卡:<select id="pcVideocard">
+            <!--<option value="1">5444</option>-->
+        </select><br/>
+            显示器:<select id="pcDisplay">
+            <!--<option value="1">5444</option>-->
+        </select>
+        </div>
+        <br/>
+        价格: <input type="text"  id="pcPrice" disabled="disabled"><br/>
+        <button id="computer_save" onclick="computer_save()">添加</button>
+    </div>
+</body>
+</html>

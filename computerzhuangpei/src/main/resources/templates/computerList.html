@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>computerList</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="/computerList.js"></script>
+</head>
+<body>
+
+<div>
+    <h3><a  href="/page/showPage">返回主页</a></h3>
+</div>
+        <div id="xin_show_table">
+            <table id="xin_dataTable" border="2" width="1000px">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>电脑名称</th>
+                        <th>cpu</th>
+                        <th>内存</th>
+                        <th>显卡</th>
+                        <th>硬盘</th>
+                        <th>显示器1</th>
+                        <th>价格</th>
+                        <th>操&作</th>
+                    </tr>
+                </thead>
+
+                <tbody id="xin_dataTable_body">
+                    <tr>
+                        <td>1</td>
+                        <td>8400迷你主机</td>
+                        <td>i5-8400</td>
+                        <td>金士顿内存</td>
+                        <td>七彩虹显卡</td>
+                        <td>西部数据硬盘</td>
+                        <td>冠捷显示器</td>
+                        <td>8890</td>
+                        <td><button><a href='javascript:void(0);'style='font-weight: bold;text-decoration:none; color:#333; '>修改</a></button><br/><button><a href='javascript:void(0);' style='font-weight: bold;text-decoration:none; color:#333; '>删除</a></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="xin_pageFoot">
+            <span>共13条记录,当前第1页/共3页,首页,上一页,<button>下一页</button>,尾页</span>
+        </div>
+
+
+
+
+<div id="computer_modify" style="display: none">
+    <h3>修改电脑</h3>
+    <div id="pcInfo">
+        <input  type="text" id="pcId" readonly="readonly" style="visibility: hidden" disabled="disabled"> <br/>
+        电脑型号:<input  type="text" id="pcName" readonly="readonly"  disabled="disabled"> <br/>
+        <div>
+        CPU: <select id="pcCpu">
+                    <!--<option value="1">5444</option>-->
+             </select><br/>
+        内存: <select id="pcMemory">
+                    <!--<option value="1">5444</option>-->
+             </select><br/>
+        硬盘:<select id="pcHdd">
+                      <!--<option value="1">5444</option>-->
+              </select><br/>
+        显卡:<select id="pcVideocard">
+                      <!--<option value="1">5444</option>-->
+            </select><br/>
+        显示器:<select id="pcDisplay">
+                    <!--<option value="1">5444</option>-->
+             </select>
+        </div>
+            <br/>
+        价格: <input type="text"  id="pcPrice" disabled="disabled"><br/>
+        <button id="computer_modifyFun" onclick="computer_modifyFun()">修改</button>
+    </div>
+</div>
+</body>
+</html>
